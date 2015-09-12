@@ -1,0 +1,473 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0;
+	color: #000000;
+	font-family: '微软雅黑';
+	position: relative;
+}
+
+#top {
+	background: url(../images/codetop.jpg);
+	height: 120px;
+	width: auto;
+	margin-top: 0px;
+	position: relative;
+	font-size: 12px;
+}
+
+#touxiang {
+	position: absolute;
+	left: 92%;
+	top: 25%;
+	height: 60px;
+	width: 60px;
+}
+
+#txicon {
+	position: absolute;
+	left: 77%;
+	top: 25%;
+	height: 60px;
+	width: 60px;
+}
+
+#top p {
+	position: absolute;
+	left: 82%;
+	top: 30%;
+}
+
+#top p a {
+	text-decoration: none;
+	border-right: #6B6B6B solid 1px;
+	padding-right: 10px;
+	color: #000;
+}
+
+#top p a:first-child:hover {
+	color: #FF0004;
+}
+
+#top p a:first-child {
+	font-weight: bold;
+}
+
+#top p a:last-child {
+	border: none;
+	color: #326496;
+}
+
+#top p a:hover {
+	text-decoration: underline;
+	color: #848484;
+}
+
+#navigation ul, li {
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+	font: 12px/22px "\5B8B\4F53", Arial, Helvetica, sans-serif
+}
+/* \5B8B\4F53 代表 宋体，更多中文字体转 Unicode http://www.divcss5.com/jiqiao/j325.shtml */
+#navigation {
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 40px;
+}
+
+#navigation a {
+	color: #000000;
+	text-decoration: none
+}
+
+#nav {
+	height: 40px;
+	background: #00A2CA;
+	width: 100%;
+	border-radius: 8px;
+}
+
+#nav li {
+	display: inline;
+	height: 40px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+#nav li:first-child {
+	padding-left: 20px;
+}
+
+#nav li a {
+	display: inline-block;
+	padding: 0 40px;
+	height: 40px;
+	line-height: 40px;
+	color: #FFF;
+	font-family: "\5FAE\8F6F\96C5\9ED1";
+	font-size: 16px;
+}
+
+#nav li a:hover {
+	background: #0095BB;
+	color: #FFF500;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+#sousuo {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.searchinput {
+	border-right-width: 0px;
+	padding-left: 3px;
+	width: 250px;
+	font-family: arial;
+	float: left;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	color: #636365;
+	margin-left: 4px;
+	font-size: 10pt;
+	vertical-align: middle;
+	border-left-width: 0px;
+	margin-right: 3px;
+	text-align: center;
+	height: 20px;
+}
+
+.tab_search {
+	border: #cccccc 1px solid;
+	height: 35px;
+}
+
+.searchaction {
+	width: 24px;
+	float: left;
+	height: 23px;
+}
+
+#sousuo p {
+	font-size: 14px;
+	padding-left: 20px;
+	display: inline-block;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+#sousuo  ul {
+	display: inline;
+	padding-left: 0px;
+}
+
+#sousuo  ul li {
+	padding-right: 13px;
+	padding-left: 10px;
+	display: inline;
+}
+
+#sousuo ul li a {
+	color: #6256FF;;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: '微软雅黑';
+}
+
+#sousuo ul li a:hover {
+	text-decoration: underline;
+}
+
+#postbody {
+	margin-left: 20px;
+	margin-top: 20px;
+	font-family: '微软雅黑';
+	border-top: 1px solid #ccc;
+	width: 94%;
+	text-align: left;
+}
+
+#posttop {
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.replaynum {
+	width: 202px;
+	background: #E5EDF2;
+	overflow: hidden;
+	border-right: 1px solid #C2D5E3;
+	display: table-cell;
+	height: 40px;
+	font-size: 13px;
+	text-align: center;
+	color: #555555;
+}
+
+.replaynum span {
+	color: #F00;
+}
+
+.title {
+	width: 1100px;
+	overflow: hidden;
+	padding-left: 30px;
+	font-weight: bold;
+}
+
+.title a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.title a:hover {
+	text-decoration: underline;
+	color: #0A00FF;
+}
+
+#line {
+	padding: 0px;
+	margin: 0px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.line1 {
+	background: #C2D5E3;
+	padding: 0;
+	height: 4px;
+	width: 197px;
+}
+
+.line2 {
+	background: #E5EDF2;
+	width: 1100px;
+	margin: 0;
+}
+
+.post2 {
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	height: 230px;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.user {
+	width: 192px;
+	height: 230px;
+	border-right: 1px solid #C2D5E3;
+	overflow: hidden;
+	background: #E5EDF2;
+}
+
+.inform {
+	text-align: center;
+	margin-top: -50px;
+}
+
+.inform span {
+	display: block;
+	color: #;
+}
+
+.inform hr {
+	border: 1px dashed #DDD;
+	margin-top: 13px;
+}
+
+.inform a:first-child {
+	text-decoration: none;
+	font-size: 15px;
+	color: #000;
+}
+
+.inform a:first-child:hover {
+	text-decoration: underline;
+}
+
+.inform a:last-child {
+	margin-top: 20px;
+	display: block;
+}
+
+.comment {
+	vertical-align: text-top;
+	padding-left: 20px;
+	padding-top: 15px;
+}
+
+.comment img {
+	width: 15px;
+	height: 15px;
+	border-radius: 2px;
+}
+
+.comment span {
+	font-size: 14px;
+	vertical-align: text-top;
+}
+
+.comment span:first-child {
+	color: #AAAAAA;
+}
+
+.comment hr {
+	border: 1px dashed #DDD;
+	margin-right: 20px;
+}
+
+#huitietable {
+	table-layout: fixed;
+	height: 200px;
+	width: 100%;
+	margin-top: 50px;
+	border: 1px solid #ccc;
+}
+
+#huitietable img {
+	width: 100px;
+	height: 100px;
+}
+
+.huitie1 {
+	width: 192px;
+	border-right: 1px solid #ccc;
+	text-align: center;
+	background: #E5EDF2;
+}
+
+.huitie2 {
+	width: 1100px;
+	padding-left: 30px;
+}
+
+.huitie2 textarea {
+	width: 900px;
+	height: 120px;
+	margin-top: 0px;
+}
+
+.huitie2 input {
+	height: 30px;
+	width: 90px;
+	background: #005CFF;
+	border: none;
+	margin-left: 200px;
+	margin-top: 15px;
+	color: #fff;
+	font-weight: bold;
+	transition: ease-in-out 0.4s;
+	border-radius: 3px;
+}
+
+#clock {
+	margin-left: 300px;
+	font-size: 14px;
+	color: #0034FF;
+}
+
+.huitie2 input:hover {
+	background: #A000D4;
+}
+
+#replay {
+	position: fixed;
+	width: 70px;
+	height: 45px;
+	left: 93%;;
+	top: 40%;
+	background: url(../images/quickhui.jpg);
+	background-size: 100% 100%;
+	border-radius: 35px;
+	text-align: center;
+	font-size: 14px;
+	color: #FFFFFF;
+	padding-top: 25px;
+}
+
+#replay:hover {
+	background: url(../images/quickhui2.jpg);
+	cursor: pointer;
+	cursor: hand;
+}
+
+#quickhui {
+	position: fixed;
+	width: 600px;
+	height: 250px;
+	left: 30%;;
+	top: 35%;
+	z-index: 1000;
+	border: #ccc 7px solid;
+	border-radius: 7px;
+	background: #fff;
+	font-family: '微软雅黑';
+}
+
+#quickhui label:first-child {
+	display: block;
+	margin-left: 30px;
+	margin-top: 8px;
+	font-size: 14px;
+	color: #0034FF;
+	font-weight: bold;
+}
+
+#quickhui textarea {
+	width: 450px;
+	height: 150px;
+	margin-top: 15px;
+	margin-left: 30px;
+	border: 1px solid #999;
+}
+
+#quickhui input {
+	height: 30px;
+	width: 90px;
+	background: #005CFF;
+	border: none;
+	margin-left: 200px;
+	margin-top: 10px;
+	color: #fff;
+	font-weight: bold;
+	transition: ease-in-out 0.4s;
+	border-radius: 3px;
+}
+
+#quickhui input:hover {
+	background: #A000D4;
+}
+
+#clock2 {
+	margin-left: 100px;
+	font-size: 14px;
+	color: #0034FF;
+	vertical-align: text-top;
+}
+
+#close {
+	float: right;
+	position: relative;
+	top: -188px;
+	left: -5px;
+}
+
+#close img {
+	width: 20px;
+	height: 20px;
+	opacity: 0.7;
+	transition: ease-in-out 0.4s;
+}
+
+#close img:hover {
+	transform: rotate(180deg);
+	cursor: pointer;
+	src: url(../images/close2.png);
+}

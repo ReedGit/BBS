@@ -1,0 +1,31 @@
+body{ margin:0; padding:0; font-family:'微软雅黑'; font-size:14px;}
+#head{ padding-top:20px; padding-left:17%; width:auto; height:100px;}
+#middle{ margin-top:30px; margin-left:100px;}
+#left{ float:left;}
+#right{ float:right; border:#CFCFCF solid 1px; width:400px;height:380px;margin-right:100px; box-shadow:1px 1px 15px #868686;
+-moz- box-shadow:1px 1px 15px #868686; -o- box-shadow:1px 1px 15px #868686; -webkit- box-shadow:1px 1px 15px #868686;; padding-top:10px; text-align:center;}
+#right p:first-child{ font-weight:bold; font-size:16px; color:#4F4DFF;}
+.kuang2{ width:250px; height:30px; border-radius:5px; margin-top:25px;}
+#logbutton{ width:100px; height:35px; margin-top:30px; border-radius:15px; background:#7E57FF;transition:.4s ease-out;-webkit-transtion:0.4s ease-out;-o-transtion:0.4s ease-out;-moz-transtion:0.4s ease-out; margin-left:50px;} 
+#logbutton:hover{width:120px; height:40px; background:#0A00FF; border-radius:20px; color:#F0FF00}
+#yzfresh{ text-decoration:none;}
+.code{
+background-image:url(../images/yanzheng.jpg);
+font-family:Arial;
+font-style:italic;
+color:Red;
+border:0;
+padding:2px 3px;
+letter-spacing:3px;
+font-weight:bolder;
+width: 100px;
+height:30px;
+margin-left:55px;
+margin-top:-10px;
+}
+.unchanged {
+border:0;
+}
+#checkCode{ font-size:25px; font-weight:600; text-decoration:none; display:block; margin-left:100px;}
+#lgin a:last-child{ text-decoration:none; margin-left:30px; font-size:14px; color:#000;}
+#lgin a:last-child:hover{ text-decoration:underline; color:#FF0004;}

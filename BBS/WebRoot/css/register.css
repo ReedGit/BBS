@@ -1,0 +1,366 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0;
+	color: #000000;
+	font-family: '微软雅黑'
+}
+
+#top {
+	background: url(../images/codetop.jpg);
+	height: 120px;
+	width: auto;
+	margin-top: 0px;
+	position: relative;
+	font-size: 12px;
+}
+
+#touxiang {
+	position: absolute;
+	left: 92%;
+	top: 25%;
+	height: 60px;
+	width: 60px;
+}
+
+#txicon {
+	position: absolute;
+	left: 77%;
+	top: 25%;
+	height: 60px;
+	width: 60px;
+}
+
+#top p {
+	position: absolute;
+	left: 82%;
+	top: 30%;
+}
+
+#top p a {
+	text-decoration: none;
+	border-right: #6B6B6B solid 1px;
+	padding-right: 10px;
+	color: #000;
+}
+
+#top p a:first-child:hover {
+	color: #FF0004;
+}
+
+#top p a:first-child {
+	font-weight: bold;
+}
+
+#top p a:last-child {
+	border: none;
+	color: #326496;
+}
+
+#top p a:hover {
+	text-decoration: underline;
+	color: #848484;
+}
+
+#navigation ul, li {
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+	font: 12px/22px "\5B8B\4F53", Arial, Helvetica, sans-serif
+}
+/* \5B8B\4F53 代表 宋体，更多中文字体转 Unicode http://www.divcss5.com/jiqiao/j325.shtml */
+#navigation {
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 40px;
+}
+
+#navigation a {
+	color: #000000;
+	text-decoration: none
+}
+
+#nav {
+	height: 40px;
+	background: #00A2CA;
+	width: 100%;
+	border-radius: 8px;
+}
+
+#nav li {
+	display: inline;
+	height: 40px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+#nav li:first-child {
+	padding-left: 20px;
+}
+
+#nav li a {
+	display: inline-block;
+	padding: 0 40px;
+	height: 40px;
+	line-height: 40px;
+	color: #FFF;
+	font-family: "\5FAE\8F6F\96C5\9ED1";
+	font-size: 16px;
+}
+
+#nav li a:hover {
+	background: #0095BB;
+	color: #FFF500;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+#sousuo {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.searchinput {
+	border-right-width: 0px;
+	padding-left: 3px;
+	width: 250px;
+	font-family: arial;
+	float: left;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	color: #636365;
+	margin-left: 4px;
+	font-size: 10pt;
+	vertical-align: middle;
+	border-left-width: 0px;
+	margin-right: 3px;
+	text-align: center;
+	height: 20px;
+}
+
+.tab_search {
+	border: #cccccc 1px solid;
+	height: 35px;
+}
+
+.searchaction {
+	width: 24px;
+	float: left;
+	height: 23px;
+}
+
+#sousuo p {
+	font-size: 14px;
+	padding-left: 20px;
+	display: inline-block;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+#sousuo  ul {
+	display: inline;
+	padding-left: 0px;
+}
+
+#sousuo  ul li {
+	padding-right: 13px;
+	padding-left: 10px;
+	display: inline;
+}
+
+#sousuo ul li a {
+	color: #6256FF;;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: '微软雅黑';
+}
+
+#sousuo ul li a:hover {
+	text-decoration: underline;
+}
+
+#register {
+	margin-top: 15px;
+	margin-left: 20px;
+	height: 500px;
+	margin-right: 20px;
+	border: #CDCDCD solid 1px;
+}
+
+#regist1 {
+	height: 28px;
+	background-color: #E3E3E3;
+	padding-top: 10px;
+	overflow: hidden;
+	border: #CDCDCD solid 1px;
+}
+
+#regist1 p {
+	padding-left: 10px;
+	margin: 0px;
+	display: inline;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#regist1 a {
+	margin-left: 83%;
+	text-decoration: none;
+	font-size: 13px;
+	color: #326496;
+} /*小bug padding改成margin*/
+#regist2 {
+	margin-left: 400px;
+	padding-top: 35px;
+	font-size: 13px;
+}
+
+#regist2 li {
+	list-style-type: none;
+	padding-bottom: 15px;
+	border-bottom:
+}
+
+#regist2 li:nth-child(2) {
+	margin-left: 12px;
+}
+
+#regist2 li:nth-child(3) {
+	margin-left: -12px;
+}
+
+#regist2 li:nth-child(4) {
+	margin-left: 6px;
+}
+
+#regist2 hr {
+	margin-left: -100px;
+	width: 700px;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	border: #E1E1E1 solid 1px;
+}
+
+#regist2 img {
+	width: 15px;
+	height: 15px;
+	margin-top: 2px;
+	display: none;
+}
+
+.red {
+	color: red;
+	display: inline;
+}
+
+.kuang1 {
+	margin-left: 5px;
+	width: 250px;
+	height: 20px;
+}
+
+.warning {
+	display: inline;
+	margin-left: 15px;
+	color: #7A7A7A;
+	display: none;
+}
+
+.code {
+	background-image: url(../images/yanzheng.jpg);
+	font-family: Arial;
+	font-style: italic;
+	color: Red;
+	border: 0;
+	padding: 2px 3px;
+	letter-spacing: 3px;
+	font-weight: bolder;
+	width: 100px;
+	height: 30px;
+	margin-left: 55px;
+	margin-top: -10px;
+}
+
+.unchanged {
+	border: 0;
+}
+
+#yzfresh {
+	text-decoration: none;
+}
+
+#checkCode {
+	font-size: 25px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+#rgsbutton {
+	width: 80px;
+	height: 30px;
+	background: #2D2BFF;
+	margin-left: 100px;
+	border-radius: 15px;
+	box-shadow: 1px 1px 5px;
+	border: none;
+	color: #fff;
+}
+
+#rgsbutton {
+	cursor: pointer;
+	cursor: hand;
+} /*改变鼠标的样式*/
+#inc {
+	margin-top: 25px;
+	height: 100px;
+	border-top: #CDCDCD solid 1px;
+	width: auto;
+	position: relative;
+	font-size: 12px;
+	color: #747474;
+	line-height: 25px;
+}
+
+#inc p:first-child {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+#inc img {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 80%;
+	top: 10%;
+}
+
+#inc div:last-child {
+	position: absolute;
+	top: 50%;
+	left: 65%;
+	text-align: right;
+}
+
+#inc1 li {
+	display: inline;
+	border-right: #CDCDCD solid 1px;
+	padding-right: 3px;
+}
+
+#inc1 li:last-child {
+	border: none;
+}
+
+#inc1 a {
+	text-decoration: none;
+	color: #747474;
+}
+
+#inc1 a:hover {
+	text-decoration: underline;
+}

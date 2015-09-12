@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="default" extends="struts-default">
+
+		<interceptors>
+			<interceptor name="loginCheck" class="interceptor.LoginCheck"></interceptor>
+		</interceptors>
+
+		<action name="loginAction" class="action.LoginAction" method="login">
+			<result name="input">/login.jsp</result>
+			<result name="success" type="redirect">/allNoteAction.action</result>
+		</action>
+
+		<action name="registerAction" class="action.RegisterAction"
+			method="register">
+			<result name="input">/register.jsp</result>
+			<result name="success" type="redirect">/login.jsp</result>
+		</action>
+
+		<action name="allNoteAction" class="action.AllNoteAction">
+			<result name="success">/allNote.jsp</result>
+		</action>
+
+		<action name="noteContentAction" class="action.NoteContentAction"
+			method="allComment">
+			<result name="success">/noteContent.jsp</result>
+		</action>
+
+		<action name="addNoteAction" class="action.AddNoteAction">
+			<interceptor-ref name="loginCheck"></interceptor-ref>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="input">/newNote.jsp</result>
+			<result name="fail">/newNote.jsp</result>
+			<result name="success" type="redirect">/allNoteAction.action</result>
+		</action>
+
+		<action name="updatePasswordAction" class="action.UpdatePasswordAction">
+			<interceptor-ref name="loginCheck"></interceptor-ref>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="input">/personalNote.jsp</result>
+			<result name="fail">/login.jsp</result>
+			<result name="success" type="redirect">/login.jsp</result>
+		</action>
+
+		<action name="userExitAction" class="action.ExitAction" method="userExit">
+			<result name="success" type="redirect">/allNoteAction.action</result>
+		</action>
+
+		<action name="classifyNoteAction" class="action.ClassifyNoteAction">
+			<result name="success">/classifyNote.jsp</result>
+		</action>
+
+		<action name="personalNoteAction" class="action.PersonalNoteAction"
+			method="loginNote">
+			<result name="success">/personalNote.jsp</result>
+			<result name="error">/login.jsp</result>
+		</action>
+
+		<action name="authorNoteAction" class="action.PersonalNoteAction"
+			method="authorNote">
+			<result name="success">/authorNote.jsp</result>
+		</action>
+		<action name="updateImageAction" class="action.UpdateImageAction">
+			<result name="success" type="redirect">/personalNoteAction.action
+			</result>
+		</action>
+		<action name="addCommentAction" class="action.AddCommentAction">
+			<result name="success" type="redirect">/noteContentAction.action</result>
+			<result name="error">/noteContentAction.action</result>
+			<result name="fail">/noteContentAction.action</result>
+		</action>
+
+		<action name="deleteNoteAction" class="action.DeleteNoteAction">
+			<result name="success" type="redirect">/personalNoteAction.action
+			</result>
+		</action>
+
+	</package>
+</struts>    
